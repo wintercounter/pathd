@@ -1,0 +1,48 @@
+a#opfp_prev, a#opfp_next{
+	position: fixed;
+	display: block;
+	top: 0;
+	width: 60px; 
+	height: 60px;  
+	line-height: 60px; 
+	margin: 20px;
+	text-align: center;
+	text-decoration: none;
+	/*-----------*/
+	font-size:15px;
+	font-weight:bold;
+	-moz-box-shadow: 0px 0px 4px 1px #fff;
+	-webkit-box-shadow: 0px 0px 4px 1px #fff;
+	box-shadow: 0px 0px 4px 1px #fff;
+	border:3px solid #feffe8;
+	color:#bbb;
+	text-shadow:1px 1px 0 #fff;
+	background: #feffe8;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPHJhZGlhbEdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iNzUlIj4KICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNmZWZmZTgiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZDZkYmJmIiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L3JhZGlhbEdyYWRpZW50PgogIDxyZWN0IHg9Ii01MCIgeT0iLTUwIiB3aWR0aD0iMTAxIiBoZWlnaHQ9IjEwMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-radial-gradient(center, ellipse cover, #feffe8 0%, #d6dbbf 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#feffe8), color-stop(100%,#d6dbbf));
+	background: -webkit-radial-gradient(center, ellipse cover, #feffe8 0%,#d6dbbf 100%);
+	background: -o-radial-gradient(center, ellipse cover, #feffe8 0%,#d6dbbf 100%);
+	background: -ms-radial-gradient(center, ellipse cover, #feffe8 0%,#d6dbbf 100%);
+	background: radial-gradient(center, ellipse cover, #feffe8 0%,#d6dbbf 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffe8', endColorstr='#d6dbbf',GradientType=1 );
+	border-radius:33px;
+	-moz-border-radius:33px;
+	-webkit-border-radius:33px;	
+}
+
+a#opfp_prev:hover, a#opfp_next:hover{
+	color:#cbcbcb;
+}
+
+a#opfp_prev:active, a#opfp_next:active{
+	background: #fff;
+}
+
+a#opfp_prev{
+	left: 0;
+}
+
+a#opfp_next{
+	right: 0;
+}

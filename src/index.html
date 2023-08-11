@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			html{ width: 100%; height: 100%; overflow: hidden; }
+			body{ padding: 0; margin: 0; }
+			.page_item{ float: left; overflow-y: auto; }
+		</style>
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script type="text/javascript" src="jquery.opfp.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$.opfp({
+					cols: 2,
+					type: 'straight',
+					speed: 1000
+				});
+				$('a').click(function(){
+					$.opfp.next();
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<div class="page_item">Page 1<br><a href="#nogo">Next page</a></div>
+		<div class="page_item">Page 2<br><a href="#nogo">Next page</a></div>
+		<div class="page_item">Page 3<br><a href="#nogo">Next page</a></div>
+		<div class="page_item">Page 4<br><a href="#nogo">Next page</a></div>
+	</body>
+</html>

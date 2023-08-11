@@ -1,0 +1,45 @@
+a#opfp_prev, a#opfp_next{
+	position: fixed;
+	display: block;
+	top: 0;
+width: 50px; /*ez amin*/
+	height: 50px; /*ez amin*/
+	line-height: 50px; /*ez amin magasáág*/
+	margin: 20px;
+	text-align: center;
+	text-decoration: none;
+	/*-----------*/
+	color: #fff;
+	font-size: 11px;
+	font-weight: bold;
+	background-color: #444;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	display: block;
+	text-shadow: 0 -1px rgba(0, 0, 0, .2);
+	box-shadow: 0 0 0 1px rgba(255, 255, 255, .2) inset;
+	-moz-box-shadow: 0 0 0 1px rgba(255, 255, 255, .2) inset;
+	-webkit-box-shadow: 0 0 0 1px rgba(255, 255, 255, .2) inset;
+	border: 1px solid black;
+}
+
+a#opfp_prev:hover, a#opfp_next:hover{
+	background: #555;
+	color: #fff;
+	text-shadow: none;
+}
+
+a#opfp_prev:active, a#opfp_next:active{
+	background: #222;
+}
+
+a#opfp_prev{
+	left: 0;
+	border-right: 2px solid #333;
+}
+
+a#opfp_next{
+	right: 0;
+	border-left: 2px solid #333;
+}

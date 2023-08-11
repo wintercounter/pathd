@@ -1,0 +1,39 @@
+a#opfp_prev, a#opfp_next{
+	position: fixed;
+	display: block;
+	top: 0;
+	width: 50px;
+	height: 30px;
+	line-height: 30px;
+	background: #eee;
+	border-color: #ddd;
+	border-style: solid;
+  border-width: 1px;
+  text-shadow: 1px 1px 0 #fff;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+	text-decoration: none;
+	color: #000;
+	margin: 20px;
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	font-size: 13px;
+	font-weight: normal;
+	text-align: center;
+}
+
+a#opfp_prev:hover, a#opfp_next:hover{
+
+}
+
+a#opfp_prev:active, a#opfp_next:active{
+  border-color: #bbb;
+}
+
+a#opfp_prev{
+	left: 0;
+}
+
+a#opfp_next{
+	right: 0;
+}

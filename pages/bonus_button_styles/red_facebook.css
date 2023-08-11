@@ -1,0 +1,39 @@
+a#opfp_prev, a#opfp_next{
+	position: fixed;
+	display: block;
+	top: 0;
+	width: 50px;
+	height: 30px;
+	line-height: 30px;
+	background: #cc0000;
+	border-color: #990000;
+	border-style: solid;
+  border-width: 1px;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+	text-decoration: none;
+	color: #fff;
+	margin: 20px;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	font-size: 11px;
+	font-weight: bold;
+	text-align: center;
+}
+
+a#opfp_prev:hover, a#opfp_next:hover{
+
+}
+
+a#opfp_prev:active, a#opfp_next:active{
+	background: #990000;
+  border-bottom-color: #660000;
+}
+
+a#opfp_prev{
+	left: 0;
+}
+
+a#opfp_next{
+	right: 0;
+}
